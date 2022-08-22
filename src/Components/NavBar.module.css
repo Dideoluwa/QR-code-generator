@@ -32,3 +32,15 @@
     color: rgb(181, 181, 181);
     transition: all 0.2s ease-in-out;
 }
+
+@media only screen and (max-width: 520px){
+    .nav{
+       padding: 0 0px;
+    }
+    .logo h1{
+        font-size: 15px;
+    }
+    .links div h1{
+        font-size: 15px;
+    }
+}

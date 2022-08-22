@@ -9,7 +9,7 @@
  margin: auto;
  display: flex;
  justify-content: space-between;
- width: 40%;
+ /* width: 40%; */
  margin-top: 30px;
 }
 .nav div{

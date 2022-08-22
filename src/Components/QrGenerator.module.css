@@ -81,3 +81,12 @@
     font: 15px;
 }
 
+@media only screen and (max-width: 520px){
+    .body_form_2 {
+        width: 100%;
+    }
+    .qr_code{
+        width: 45%;
+    }
+}
+

@@ -1,40 +1,40 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styles from './QrDecoder.module.css'
 import QrDecoderCamera from './QrDecoderCamera';
-import QrDecoderFile from './QrDecoderFile';
+
 
 
 function QrDecoder() {
-    let [isChangedMode, setIsChangedMode] = useState(false)
+    // let [isChangedMode, setIsChangedMode] = useState(false)
 
-    let uploadFileHandler = () => {
-        setIsChangedMode(false)
-    }
+    // let uploadFileHandler = () => {
+    //     setIsChangedMode(false)
+    // }
 
-    let uploadScanHandler = () => {
-        setIsChangedMode(true)
-    }
+    // let uploadScanHandler = () => {
+    //     setIsChangedMode(true)
+    // }
 
     return (
         <div className={styles.body}>
             <div className={styles.header}>
-                <h1>QrDecoder</h1>
+                {/* <h1>QrDecoder</h1> */}
             </div>
             <div className={styles.nav}>
-                <div
+                {/* <div
                     onClick={uploadFileHandler}
                 >
                     <h2>Upload File</h2>
-                </div>
+                </div> */}
 
                 <div
-                    onClick={uploadScanHandler}
+                // onClick={uploadScanHandler}
                 >
-                    <h2>Scan Code</h2>
+                    {/* <h2>Scan Code</h2> */}
                 </div>
             </div>
-            {isChangedMode && <QrDecoderCamera />}
-            {!isChangedMode && <QrDecoderFile />}
+            <QrDecoderCamera />
+            {/* {isChangedMode && <QrDecoderFile />} */}
         </div>
     )
 }
