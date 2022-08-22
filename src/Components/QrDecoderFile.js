@@ -21,7 +21,7 @@ function QrDecoderFile() {
             setQrImgShow(false)
             return
         }
-        let url = `http://api.qrserver.com/v1/read-qr-code/?fileurl=${imgName}`
+        let url = `https://api.qrserver.com/v1/read-qr-code/?fileurl=${imgName}`
         axios.get(url, {
             headers: {"Access-Control-Allow-Origin": "*"} 
         }).then((res) => {
