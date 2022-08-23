@@ -36,7 +36,7 @@ function NavBar(props) {
                     <div>
                         <h1
                             onClick={decodeQrHandler}
-                        >Decode QR-code</h1>
+                        >Scan QR-code</h1>
                     </div>
                 }
             </div>

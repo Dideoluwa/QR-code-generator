@@ -32,7 +32,7 @@ function QrGenerator() {
     return (
         <div className={styles.body}>
             <div className={styles.header}>
-                <h1>Generate Qr-code</h1>
+                <h1>Generate QR-code</h1>
             </div>
             <div className={styles.body_form}>
                 <div className={styles.body_form_2}>
@@ -41,7 +41,7 @@ function QrGenerator() {
                         <div className={styles.inputField}>
                             <label>Enter URL Link</label>
                             <input
-                                placeholder='https:test@test.com'
+                                placeholder='Enter a url'
                                 onChange={urlInputChangeHandler}
                                 value={urlInput}
                             ></input>
